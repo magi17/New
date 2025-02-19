@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", async function (req, res) {
-res.sendFile(path.join(__dirname,  "./index.html"));
+res.sendFile(path.join(__dirname,  "index.html"));
 });
 
 // Step 1: Fetch video details
